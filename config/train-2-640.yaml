@@ -1,8 +1,8 @@
 dataset_params:
-  im_train_path: 'Train/JPEGImages-640'
-  ann_train_path: 'Train/Annotations-2-640'
-  im_test_path: 'Test/JPEGImages-640'
-  ann_test_path: 'Test/Annotations-2-640'
+  im_train_path: '/kaggle/input/faster-rcnn/Train/Train/JPEGImages-640'
+  ann_train_path: '/kaggle/input/faster-rcnn/Train/Train/Annotations-2-640'
+  im_test_path: '/kaggle/input/faster-rcnn/Test/Test/JPEGImages-640'
+  ann_test_path: '/kaggle/input/faster-rcnn/Test/Test/Annotations-2-640'
   num_classes : 3
 
 model_params:
